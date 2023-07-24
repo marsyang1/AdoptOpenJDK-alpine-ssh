@@ -4,7 +4,7 @@
 #
 # Releaes Note https://foojay.io/java-8/?tab=component&quarter=072022&version=openjdk8u342
 #
-FROM adoptopenjdk/openjdk8:x86_64-alpine-jdk8u345-b01-slim
+FROM adoptopenjdk/openjdk8:x86_64-alpine-jdk8u382-b05-slim
 # Install font var cURL , doc: https://www.jianshu.com/p/e39ee0cad05b
 RUN apk add --update openssh curl bash ttf-dejavu tzdata
 # Default to UTF-8 file.encoding
