@@ -2,7 +2,7 @@
 #
 #
 #
-FROM eclipse-temurin:21.0.2_13-jdk-alpine
+FROM eclipse-temurin:21.0.8_9-jdk-alpine-3.22
 # Install font var cURL , doc: https://www.jianshu.com/p/e39ee0cad05b
 RUN apk add --update openssh curl bash ttf-dejavu tzdata git
 # ADD fontconfig , https://stackoverflow.com/questions/74975762/docker-and-spring-boot-giving-sun-awt-fontconfiguration-head-is-null
