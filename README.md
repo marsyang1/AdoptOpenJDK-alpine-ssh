@@ -12,6 +12,18 @@ docker push marsyang1/eclipse-temurin-alpine-ssh:latest
 
 ```
 
+TAG jdk8-ubi10
+
+```
+
+docker build -f jdk8.ubi10.dockerfile --platform linux/amd64 -t marsyang1/eclipse-temurin-ubi10-ssh:jdk8 -t marsyang1/eclipse-temurin-ubi10-ssh:jdk8u462 -t marsyang1/eclipse-temurin-ubi10-ssh:latest . && \
+docker push marsyang1/eclipse-temurin-ubi10-ssh:jdk8 && \
+docker push marsyang1/eclipse-temurin-ubi10-ssh:jdk8u462 && \
+docker push marsyang1/eclipse-temurin-ubi10-ssh:latest
+
+
+```
+
 
 TAG jdk11
 
