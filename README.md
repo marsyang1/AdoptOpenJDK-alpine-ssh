@@ -17,9 +17,9 @@ TAG jdk11
 
 ```
 
-docker build -f jdk11.dockerfile --platform linux/amd64 -t marsyang1/eclipse-temurin-alpine-ssh:jdk11.0.22 -t marsyang1/eclipse-temurin-alpine-ssh:jdk11 . && \
+docker build -f jdk11.dockerfile --platform linux/amd64 -t marsyang1/eclipse-temurin-alpine-ssh:jdk11.0.28 -t marsyang1/eclipse-temurin-alpine-ssh:jdk11 . && \
 docker push marsyang1/eclipse-temurin-alpine-ssh:jdk11 && \
-docker push marsyang1/eclipse-temurin-alpine-ssh:jdk11.0.22
+docker push marsyang1/eclipse-temurin-alpine-ssh:jdk11.0.28
 
 ```
 
@@ -27,9 +27,9 @@ TAG jdk17
 
 ```
 
-docker build -f jdk17.dockerfile --platform linux/amd64 -t marsyang1/eclipse-temurin-alpine-ssh:jdk17.0.10 -t marsyang1/eclipse-temurin-alpine-ssh:jdk17 . && \
+docker build -f jdk17.dockerfile --platform linux/amd64 -t marsyang1/eclipse-temurin-alpine-ssh:jdk17.0.16 -t marsyang1/eclipse-temurin-alpine-ssh:jdk17 . && \
 docker push marsyang1/eclipse-temurin-alpine-ssh:jdk17  && \
-docker push marsyang1/eclipse-temurin-alpine-ssh:jdk17.0.10
+docker push marsyang1/eclipse-temurin-alpine-ssh:jdk17.0.16
 
 ```
 
@@ -37,8 +37,8 @@ TAG jdk21
 
 ```
 
-docker build -f jdk21.dockerfile --platform linux/amd64 -t marsyang1/eclipse-temurin-alpine-ssh:jdk21.0.2_13 -t marsyang1/eclipse-temurin-alpine-ssh:jdk21 . && \
+docker build -f jdk21.dockerfile --platform linux/amd64 -t marsyang1/eclipse-temurin-alpine-ssh:jdk21.0.8 -t marsyang1/eclipse-temurin-alpine-ssh:jdk21 . && \
 docker push marsyang1/eclipse-temurin-alpine-ssh:jdk21  && \
-docker push marsyang1/eclipse-temurin-alpine-ssh:jdk21.0.2_13
+docker push marsyang1/eclipse-temurin-alpine-ssh:jdk21.0.8
 
 ```
