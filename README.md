@@ -13,6 +13,7 @@ docker push marsyang1/eclipse-temurin-alpine-ssh:latest
 ```
 
 TAG jdk8-ubi10
+只能在Intel CPU 環境建置 , 沒辦法在Apple Silicon
 
 ```
 
