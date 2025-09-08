@@ -1,4 +1,4 @@
-# AdoptOpenJDK-alpine-ssh
+# eclipse-temurin-ssh
 
 TAG jdk8
 
